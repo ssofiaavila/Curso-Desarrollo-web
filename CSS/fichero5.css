@@ -1,0 +1,32 @@
+/*MODELO DE CAJAS
+tengo CONTENIDO como parrafo, titular etc
+cada elemento puede tener BORDE
+entre borde y contenido tengo el PADDING que separa estos dos elementos
+MARGIN separa un elemento del otro despues del borde */
+
+p{
+  text-align: center;
+}
+
+.primera{
+  border: 2px solid #f7cac9;
+  width: 20%;
+  margin-top: 60px; /*asigno margen superior */
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+.segunda{
+  border: 2px solid #92a8d1;
+  width: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
