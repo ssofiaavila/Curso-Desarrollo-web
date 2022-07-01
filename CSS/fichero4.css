@@ -1,0 +1,18 @@
+/* estilos para fuentes, tamaños, deco, etc. */
+
+h1{
+  font-family: sans-serif;; /*elijo una fuente para esa etiqueta */
+  font-style: normal;
+  font-size: 40px; /*tamaño */
+  text-align: center; /*defino alineación de texto */
+  text-decoration: underline; /* si quiero subrayar o algo de eso */
+}
+p{
+  font-weight: lighter; /*negrita y eso */
+  font-size: 20px;
+}
+
+.parrafo2{
+  font-weight:  bolder;
+  font-size: 20px;
+}
