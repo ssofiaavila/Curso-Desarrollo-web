@@ -1,19 +1,25 @@
 /* hoja de estilo para Fondo */
 body{
-    background-color: #f9fafc; /*CAMBIA EL COLOR DE TOOD EL BODY */
+    /*background-color: #f9fafc; /*CAMBIA EL COLOR DE TOOD EL BODY */
+    background: url("https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWluaW1hbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80") repeat-x;
+    width= 100%;
+    background-size: cover;
 }
 
 div{
-  background: #f7d0cb; /* PONE COLOR SOLO A LO QUE ESTÁ EN LA ETIQUETA DIV */
+  background: #eeeeee; /* PONE COLOR SOLO A LO QUE ESTÁ EN LA ETIQUETA DIV */
+  border-color: #00000; /*asigno color a borde */
+  border-width: thin;; /* anchura */
+  border-style: solid;
 }
 
 span{
-  background: #e3e4e6;
+  background: #e9f9ff;
 }
 P{
   color: black;
 }
 
 div p{
-  color: #313131; /* concateno etiquetas para cambiarlas */
+  color: #00000; /* concateno etiquetas para cambiarlas */
 }

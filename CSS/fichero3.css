@@ -1,0 +1,14 @@
+.capa1{ /*instancio la clase de la capa 1 */
+  color:#81cbfe;
+}
+
+
+.capa2{
+  color:	#12ddd3;
+  border: 4px #b3bafe solid;
+}
+
+#parrafo1{
+  color:#000000;
+  background-color: #81cbfe
+}
