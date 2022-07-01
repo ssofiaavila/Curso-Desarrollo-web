@@ -1,0 +1,24 @@
+h1{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 50px;
+}
+
+table{
+  margin: auto;
+}
+td{
+  background-color: black;
+  height: 100px;
+  width: 100px;
+}
+
+.winner{
+  background-color: #92a8d1;
+}
+.none{
+  background-color: #dec2cb;
+}
+.loser{
+  background-color:#064273;
+}
