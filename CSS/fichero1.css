@@ -3,3 +3,9 @@
 h1{ /* esto indica las propiedades que tendra las etiquedas H1*/
   color:pink;
 }
+
+/* PUEDO USAR LOS COLORES HEX O RGB */
+
+li {
+  color: rgba(255, 205, 192, 1); /* el ultimo parámetro es para cambiar la transparencia */
+}
