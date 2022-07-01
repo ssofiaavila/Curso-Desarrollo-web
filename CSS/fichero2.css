@@ -1,0 +1,19 @@
+/* hoja de estilo para Fondo */
+body{
+    background-color: #f9fafc; /*CAMBIA EL COLOR DE TOOD EL BODY */
+}
+
+div{
+  background: #f7d0cb; /* PONE COLOR SOLO A LO QUE ESTÁ EN LA ETIQUETA DIV */
+}
+
+span{
+  background: #e3e4e6;
+}
+P{
+  color: black;
+}
+
+div p{
+  color: #313131; /* concateno etiquetas para cambiarlas */
+}
