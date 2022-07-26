@@ -4,3 +4,5 @@ from django.http import HttpResponse
 
 def vista1(request): #lo que hará cuando se ejecute una petición
     return HttpResponse("Hola, bienvenido")
+def vista2(request):
+    return HttpResponse("Adios, hasta la proxima")

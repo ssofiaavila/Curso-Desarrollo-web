@@ -18,6 +18,7 @@ from django.urls import path
 from aplicacion1 import views #importo el fichero
 
 urlpatterns = [
-    path('',views.vista1,name='vista1'), 
+    path('',views.vista1,name='vista1'),
     path('admin/', admin.site.urls),
+    path ('ruta2/',include('aplicacion1.ruta2')),
 ]
